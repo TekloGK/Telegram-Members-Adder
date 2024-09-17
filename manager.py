@@ -66,7 +66,7 @@ while True:
             clr()
             print(f'\n{lg} [*] Logging in from new accounts\n')
             for number in new_accs:
-                c = TelegramClient(f'sessions/{number}', 3910389 , '86f861352f0ab76a251866059a6adbd6')
+                c = TelegramClient(f'sessions/{number}', 22772855, 'eca4e92a2a270486fc052f724b91906a')
                 c.start(number)
                 print(f'{lg}[+] Login successful')
                 c.disconnect()
